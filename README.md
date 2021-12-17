@@ -27,6 +27,5 @@ Some findings:
 * Best scenario: “Low demand in a normal week, at noon!”
 * Worst scenario: both right before and right after the beginning of the anomaly
 * Scenario 3: performances drop tremendously 
-* Scenario 4: * very poor KNeighbors Regressor performance
-              * surprisingly good AutoETS and Exponential Smoothing performances 
+* Scenario 4: very poor KNeighbors Regressor performance while surprisingly good AutoETS and Exponential Smoothing performances 
 * Scenario 5: unexpected results as 3 out of 4 models reaches the threshold value
