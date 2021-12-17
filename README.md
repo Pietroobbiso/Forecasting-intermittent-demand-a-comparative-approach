@@ -17,7 +17,16 @@ In order to come up with to the final results, the following approach was adopte
 ![alt text](https://user-images.githubusercontent.com/57104110/146570045-b0d80441-7ff3-45ce-9362-205d1c886176.png) | ![alt text](https://user-images.githubusercontent.com/57104110/146570113-aecd1a33-3512-43ab-bfa1-63f97e2e8bf0.png) | ![alt text](https://user-images.githubusercontent.com/57104110/146570229-af6f4f62-ea89-427f-bba4-caa75d2c9843.png) | ![alt text](https://user-images.githubusercontent.com/57104110/146570262-e1e0cc64-baf5-4b32-a999-e309b55dd4be.png) | ![alt text](https://user-images.githubusercontent.com/57104110/146570284-b6d0e4ef-f089-4197-9806-157b005a6ff0.png) | ![alt text](https://user-images.githubusercontent.com/57104110/146570304-511dbaf2-a79d-436f-be86-fec0718df5c4.png)
 
 ### Results
+The following table shows the final results. The accuracy of the models was evaluated by taking into account the Weighted Absolute Percentage Error (WAPE), and in particular, it was defined as 1-WAPE. Moreover, all cells were filled by the green or the red colour according to a threshold value previously defined, to give a visual idea of which models perform better concerning each scenario. In particular, if the model accuracy was greater or equal than 70%, then that model was considered as a good model and the cell was filled by green, otherwise by red. Eventually, concerning the scenarios, the bold font was used to highlight those values representing the best model accuracy for that specific scenario.
 
+![alt text](https://user-images.githubusercontent.com/57104110/146570489-e334b6f8-32b4-4547-bbf1-9bed368b93b9.png)
 
-
-
+Some findings:
+* Best model: KNeighbors Regressor
+* Worst model: Naive Forecaster 
+* Best scenario: “Low demand in a normal week, at noon!”
+* Worst scenario: both right before and right after the beginning of the anomaly
+* Scenario 3: performances drop tremendously 
+* Scenario 4: * very poor KNeighbors Regressor performance
+              * surprisingly good AutoETS and Exponential Smoothing performances 
+* Scenario 5: unexpected results as 3 out of 4 models reaches the threshold value
