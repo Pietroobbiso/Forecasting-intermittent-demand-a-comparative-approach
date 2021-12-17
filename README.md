@@ -14,5 +14,5 @@ In order to come up with to the final results, the following approach was adopte
 * 2 time moments of the day, which are noon and midnight, as we want to see how it differs if we start predicting values during the day or during the night;
 * 3 different moments of the demand, which are a moment of low demand of a normal week, a moment of demand just before the beginning of the anomaly and a moment of demand in a week into the anomaly. 
 
-![alt text](https://user-images.githubusercontent.com/57104110/146569803-ff722aac-6fed-4e3f-abec-f4ab4c6df8f3.png)
+![alt text](https://user-images.githubusercontent.com/57104110/146570045-b0d80441-7ff3-45ce-9362-205d1c886176.png) | ![alt text](https://user-images.githubusercontent.com/57104110/146570113-aecd1a33-3512-43ab-bfa1-63f97e2e8bf0.png)
 
