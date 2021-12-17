@@ -7,3 +7,12 @@ Sustainable use of drinking water is essential to society. Water resources are u
 The original dataset used in this analysis describes the water consumption from a customer building. Data was collected from 4 July 2019 to 31 December 2020. Value is expressed in litres and it refers to the quantity of water measured up to that date.
 
 ![alt text](https://user-images.githubusercontent.com/57104110/146569112-8be75ce9-509f-4201-8d03-b7a301eb3b35.png)
+
+### Experimental setup
+In order to come up with to the final results, the following approach was adopted. A series of 8 forecasters were implemented, where both Machine Learning and Statistical models were used. Then models’ predictions were compared among themselves to evaluate their outcomes. Eventually models performances were investigated against different forecast horizons and different times of the day (including anomalies), by selecting some specific scenarios. These particular scenarios were selected to have the following characteristics: 
+* a Forecast Horizon  equal to 48 hours, which means we want to predict each time two days in the future;
+* 2 time moments of the day, which are noon and midnight, as we want to see how it differs if we start predicting values during the day or during the night;
+* 3 different moments of the demand, which are a moment of low demand of a normal week, a moment of demand just before the beginning of the anomaly and a moment of demand in a week into the anomaly. 
+
+![alt text](https://user-images.githubusercontent.com/57104110/146569803-ff722aac-6fed-4e3f-abec-f4ab4c6df8f3.png)
+
